@@ -556,3 +556,45 @@ img {
 
 
 }
+
+@media screen and (max-width: 600px){
+
+    #logo {
+        width: 100%; /* Tamanho do logo para telas menores */
+        position: absolute; /* Manter o logo na mesma posição */
+        left: 150px; /* Posicionar à esquerda */
+        top: 60px; /* Centralizar verticalmente */
+        transform: translateY(-50%); /* Ajustar verticalmente */
+    }
+
+    #container-vsf {
+        width: 90%;
+        display: grid;
+        /* Comprimento das imagens */
+        grid-template-columns: 35% 35% 35%;
+        column-gap: 0%;
+        height: 80%;
+        margin-top: 0%;
+        justify-content: space-around;
+
+    }
+
+    .conteudoMeio {
+        width: 30%; 
+        height: 45%;
+        margin-left: 2%;
+    } 
+    
+    /* .tituloConteudoMeio {
+        font-size: 20px; 
+        color: #333;
+        line-height: 100%;
+        text-align: center;
+       
+    } */
+
+    #footer {
+        margin-top: -130px;
+        height: 10%;
+       }
+}
